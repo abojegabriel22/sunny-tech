@@ -7,7 +7,8 @@
 }
 .home{
     height: 1000px;
-    /* border:2px solid red; */
+    border:2px solid red;
+    margin-bottom: 20px;
 }
 .navigation{
     height: 100px;
@@ -87,6 +88,8 @@
     z-index: 100;
     position: absolute;
     bottom: 2rem;
+    /* background-color: black; */
+    backdrop-filter: blur(5px);
   }
   .positon{
     position: absolute;
@@ -105,16 +108,16 @@
   }
   .carousel-item h4{
     font-size: 2rem;
-    font-weight: 900;
+    /* font-weight: 900; */
     color: rgb(252 105 28);
     box-shadow: 2px 2px 1px rgb(250, 235, 235);
-    text-shadow: -4px 0px rgb(13, 13, 13);
+    text-shadow: -2px 3px rgb(13, 13, 13);
   }
   .carousel-item p{
     font-size: 2rem;
-    font-weight: 900;
+    /* font-weight: 900; */
     color: white;
-    text-shadow: -5px -1px black;;
+    text-shadow: -2px 3px black;
   }
   .gold-text{
     color: rgb(252 105 28);
@@ -149,6 +152,7 @@
   @media  screen and (max-width: 1050px) {
     .home {
       height: 930px;
+      margin-bottom: 3px;
   }
     .home-left {
       height: 592px;
@@ -224,7 +228,7 @@
       font-size: 1.17rem;
     }
     .home {
-      height: 142px;
+      height: 941px;
     }
     #myVideo {
       bottom: -300px;
@@ -280,7 +284,6 @@
   }
   .carousel-item p {
     font-size: 1.4rem;
-    font-weight: 700;
   }
   }
 
