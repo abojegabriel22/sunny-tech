@@ -374,6 +374,9 @@
   }
 }
 @media  screen and (max-width: 800px){
+  .home-two {
+    padding-top: 40px;
+    }
   .services-text {
     font-size: 2rem;
   }
