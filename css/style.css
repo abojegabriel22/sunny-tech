@@ -7,8 +7,8 @@
 }
 .home{
     height: 1000px;
-    border:2px solid red;
-    margin-bottom: 20px;
+    /* border:2px solid red; */
+    margin-bottom: 2px;
 }
 .navigation{
     height: 100px;
@@ -287,14 +287,112 @@
   }
   }
 
-/* ////////////////// */
+/* ////////////////// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .home-two{
-    height: 800px;
+    /* height: 800px; */
+    width: 100%;
     background-color: rgb(23, 23, 218);
     border:2px solid rgb(21, 249, 17);
+    padding-top: 72px;
 }
+.services-div{
+  /* height: 400px; */
+  width: 80%;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+.services-text{
+  color: rgb(252 105 28);
+  padding-top: 10px;
+  font-size: 3.5rem;
+}
+.card-p{
+  font-size: 2rem;
+}
+.gold{
+  color: rgb(252 105 28);
+}
+.card-animate{
+  /* background-color: #cacccc; */
+  transition: all .45s ease;
+}
+.card-img-top{
+  height: 350px;
+  transition: transform 0.5s;
+}
+.card-img-top:hover{
+  transform: scale(0.95);
+}
+
+.card-title{
+  display: inline;
+}
+
+.card-body img{
+  width: 50px;
+}
+.card-animate:hover{
+  transform: translateY(-18px);
+  cursor: pointer;
+}
+.card-text{
+  color: black;
+}
+.divert-button{
+  background-color: rgb(252 105 28);
+  padding: 10px;
+  transition: all .45s ease;
+}
+.divert-button:hover{
+  letter-spacing: 1px;
+  background-color: blue;
+}
+/* ///////////////////////////////////////////////media query for home-2 section ////////////////////////// */
+@media  screen and (max-width: 1050px){
+  .home-two {
+    padding-top: 10px;
+  }
+  .services-text {
+    padding: 10px 10px 0 0px;
+  }
+  .services-div {
+    width: 95%;
+  }
+  .card-img-top {
+    height: 266px;
+  }
+}
+@media  screen and (max-width: 800px){
+  .services-div {
+    width: 90%;
+  }
+  .services-text {
+    font-size: 2.5rem;
+  }
+  .card-p {
+    font-size: 1.5rem;
+  }
+}
+@media  screen and (max-width: 800px){
+  .services-text {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 350px){
+  .services-text {
+    font-size: 1.7rem;
+  }
+  .card-p {
+    font-size: 1rem;
+  }
+  .card-img-top {
+    height: 215px;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .home-three{
-    height: 1000px;
+    height: 1500px;
     background-color: rgb(123, 123, 188);
     border:2px solid rgb(155, 153, 49);
 }
