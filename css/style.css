@@ -350,7 +350,7 @@
 /* ///////////////////////////////////////////////media query for home-2 section ////////////////////////// */
 @media  screen and (max-width: 1050px){
   .home-two {
-    padding-top: 10px;
+    padding-top: 20px;
   }
   .services-text {
     padding: 10px 10px 0 0px;
